@@ -1,5 +1,7 @@
 # Introducción
+El Brazo Robótico es un proyecto que se basa en el desarrollo de un brazo mecánico programable el cual busca replicar los movimientos que un brazo humano es capaz de realizar, donde cada uno de los movimientos en diferentes direcciones pueden ser controlados por medio de potenciómetros conectados a servomotores.
 
+Los brazos robóticos como el que se propone pueden tener múltiples aplicaciones tanto dentro y como fuera de la industria, tales como operaciones de ensamblaje, traslado de materiales, manipulación de objetos a distancia, etc. La capacidad de realizar estas tareas con tal precisión llega a tener un impacto significativo en la eficiencia y rapidez de procesos de producción.
 
 # Objetivo
 
