@@ -35,27 +35,27 @@ void setup() {
 void loop() {
   // Lectura del potenciómetro y movimiento del Servomotor 1
   PotVal1 = analogRead(PotPin1); // Lectura de potenciometro 1
-  angle1 = map(PotVal1, 0, 1023, 180, 165); // Conversión a grados de apertura
+  angle1 = map(PotVal1, 0, 1023, 180, 150); // Conversión a grados de apertura
   myServo1.write(angle1); //
-  delay(15); // Tiempo de espera
+  delay(10); // Tiempo de espera
 
   // Lectura del potenciómetro y movimiento del Servomotor 2
   PotVal2 = analogRead(PotPin2); // Lectura de potenciometro 2
   angle2 = map(PotVal2, 0, 1023, 180, 110); // Conversión a grados de apertura
   myServo2.write(angle2); // Realiza el movimiento 
-  delay(15); // Tiempo de espera
+  delay(10); // Tiempo de espera
 
   // Lectura del potenciómetro y movimiento del Servomotor 3
   PotVal3 = analogRead(PotPin3); // Lectura de potenciometro 3
-  angle3 = map(PotVal3, 0, 1023, 180, 160); // Conversión a grados de apertura 
+  angle3 = map(PotVal3, 0, 1023, 180, 140); // Conversión a grados de apertura 
   myServo3.write(angle3); // Realiza el movimiento 
-  delay(15); // Tiempo de espera
+  delay(10); // Tiempo de espera
 
   // Lectura del potenciómetro y movimiento del Servomotor 4
   PotVal4 = analogRead(PotPin4); // Lectura de potenciometro 3
   angle4 = map(PotVal4, 0, 1023, 178, 2); // Conversión a grados de apertura 
   myServo4.write(angle4); // Realiza el movimiento 
-  delay(15); // Tiempo de espera
+  delay(10); // Tiempo de espera
 }
 
 /*
