@@ -35,7 +35,7 @@ A continuación, se muestran el resultado obtenido con el prototipo en funcionam
 
 ![image](https://github.com/DanielChaparro82/Brazo-robotico/assets/135756954/cc7c2b81-ec12-47be-89aa-c4e0b64dd189)
 
-![Brazo](https://github.com/DanielChaparro82/Imagenes/blob/main/WhatsApp%20Image%202023-11-08%20at%2010.58.41%20AM%20(2).jpeg?raw=true)
+![image](https://github.com/DanielChaparro82/Imagenes/blob/main/WhatsApp%20Image%202023-11-08%20at%2010.58.41%20AM%20(2).jpeg?raw=true)
 
 # Créditos 
 Este proyecto ha sido desarrollado por:
