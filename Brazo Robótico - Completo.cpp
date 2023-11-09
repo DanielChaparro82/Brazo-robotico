@@ -10,21 +10,24 @@ Autor: Chaparro Salazar Eduardo Daniel
     Servo myServo1;
     Servo myServo2;
     Servo myServo3;
+    Servo myServo4;
 
 // Pines declarados para potenciometros // int const PotPin(X) = A(X);
-    int const PotPin1 = A3;
-    int const PotPin2 = A4;
-    int const PotPin3 = A5;
+    int const PotPin1 = A6;
+    int const PotPin2 = A7;
+    int const PotPin3 = A8;
+    int const PotPin4 = A9;
 
 // Declaración de variables
-    int PotVal1, PotVal2, PotVal3;
-    int angle1, angle2, angle3;
+    int PotVal1, PotVal2, PotVal3, PotVal4;
+    int angle1, angle2, angle3, angle4;
 
 void setup() {
   // Pines declarados para servomotores // myServoX.attach(X);
   myServo1.attach(8); // Pin 8
   myServo2.attach(9); // Pin 9
   myServo3.attach(10); // Pin 10
+  myServo4.attach(11); // Pin 11
   
   Serial.begin(9600);
 }
@@ -44,8 +47,14 @@ void loop() {
 
   // Lectura del potenciómetro y movimiento del Servomotor 3
   PotVal3 = analogRead(PotPin3); // Lectura de potenciometro 3
-  angle3 = map(PotVal3, 0, 1023, 178, 2); // Conversión a grados de apertura 
+  angle3 = map(PotVal3, 0, 1023, 180, 160); // Conversión a grados de apertura 
   myServo3.write(angle3); // Realiza el movimiento 
+  delay(15); // Tiempo de espera
+
+  // Lectura del potenciómetro y movimiento del Servomotor 4
+  PotVal4 = analogRead(PotPin4); // Lectura de potenciometro 3
+  angle4 = map(PotVal4, 0, 1023, 178, 2); // Conversión a grados de apertura 
+  myServo4.write(angle4); // Realiza el movimiento 
   delay(15); // Tiempo de espera
 }
 
