@@ -30,7 +30,7 @@ Para poder subir el código a nuestro Arduino MEGA requerimos tener previamente 
 ## Agregar la librería Servo
 La librería  utilizada en este proyecto es "Servo", la cual se puede instalar desde el gestor de librerías del IDE Arduino. También se pueden descargar directamente e instalarlas desde  Sketch -> Include Library -> Add .ZIP Library
 
-![Servo](https://github.com/DanielChaparro82/Imagenes/blob/main/Captura%20de%20pantalla%202023-11-09%20044031.png)
+![Servo](https://github.com/DanielChaparro82/Imagenes/blob/33e632fe314f39ba9da6670f7aa7f12a52098076/Captura%20de%20pantalla%202023-11-09%20044031.png)
 
 ![Librería ZIP](https://github.com/DanielChaparro82/SmartPill-Dispensador-de-pastillas-inteligente/assets/135756954/77bd9b17-445a-4f13-95e4-dc4bad0496f7)
 
