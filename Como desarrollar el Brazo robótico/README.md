@@ -22,7 +22,7 @@ Para llevar a cabo el proyecto se requieren los siguientes materiales
 
 # Requisitos previos
 ## IDE Arduino
-Para poder subir el codigo a nuestro Arduino Uno requerimos tener previamente instalado el software IDE Arduino.
+Para poder subir el código a nuestro Arduino MEGA requerimos tener previamente instalado el software IDE Arduino.
 [Arduino Software](https://www.arduino.cc/en/software)
 
 ## Agregar la librería Servo
@@ -30,26 +30,21 @@ La librería  utilizada en este proyecto es "Servo", la cual se puede instalar d
 
 ![Servo](https://github.com/DanielChaparro82/Imagenes/blob/main/Captura%20de%20pantalla%202023-11-09%20044031.png?raw=true)
 
-![Libreria ZIP](https://github.com/DanielChaparro82/SmartPill-Dispensador-de-pastillas-inteligente/assets/135756954/77bd9b17-445a-4f13-95e4-dc4bad0496f7)
+![Librería ZIP](https://github.com/DanielChaparro82/SmartPill-Dispensador-de-pastillas-inteligente/assets/135756954/77bd9b17-445a-4f13-95e4-dc4bad0496f7)
 
 # Instrucciones
 
-1. A continuacion se muestra el diagrama de conexion del circuito que se necesita realizar para que el brazo robotico funcione correctamente.
+1. A continuación se muestra el diagrama de conexión del circuito que se necesita realizar para que el brazo robótico funcione correctamente.
 
-![Brazo](https://github.com/DanielChaparro82/Imagenes/blob/main/Brazo.png?raw=true)
+![Brazo](https://github.com/DanielChaparro82/Imagenes/blob/main/Brazo.jpg)
 
-2. Una vez descargado y abierto el código en el IDE Arduino se debera de seleccionar la pestaña Tools y seleccionar las siguientes configuraciones:
+2. Una vez descargado y abierto el código en el IDE Arduino se deberá de seleccionar la pestaña Tools y seleccionar las siguientes configuraciones:
 
 Board: Arduino MEGA or MEGA 2560.
 Port: Depende de donde sea conectado.
 
-![Configuración](https://github.com/DanielChaparro82/Imagenes/blob/main/Captura%20de%20pantalla%202023-11-09%20043318.png?raw=true)
+![Configuración](https://github.com/DanielChaparro82/Imagenes/blob/main/Captura%20de%20pantalla%202023-11-09%20043318.png)
 
-3. Al realizar todos los pasos y cumplir con los requerimientos previos lo siguiente sera subir el código al microcontrolador Arduino.
+3. Al realizar todos los pasos y cumplir con los requerimientos previos lo siguiente será subir el código al microcontrolador Arduino.
 
 ![Upload](https://github.com/DanielChaparro82/Brazo-robotico/assets/135756954/7f366195-b1bf-44e5-b1b1-d66d656ddd00)
-
-
-
-
-
