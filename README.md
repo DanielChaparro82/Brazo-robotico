@@ -5,7 +5,14 @@ El Brazo Robótico es un proyecto que se basa en el desarrollo de un brazo mecá
 Los brazos robóticos como el que se propone pueden tener múltiples aplicaciones tanto dentro y como fuera de la industria, tales como operaciones de ensamblaje, traslado de materiales, manipulación de objetos a distancia, etc. La capacidad de realizar estas tareas  con tal precisión llega a tener un impacto significativo en la eficiencia y rapidez de procesos de producción.
 
 # Objetivo
-Desarrollar un brazo mecánico operable por el usuario que sea capaz de manipular materiales y objetos con una mayor precisión 
+
+El objetivo de realizar este proyecto consiste en: 
+
+1. Desarrollar un brazo mecánico programable que pueda ser fácilmente manipulado por el usuario.
+
+2. Implementar controles intuitivos y fáciles de usar.
+
+3. Optimizar tareas que requieran de eficiencia y precisión dad la versatilidad del modelo propuesto.
 
 # Materiales
 Para llevar a cabo el proyecto se requieren los siguientes materiales
