@@ -18,7 +18,7 @@ Para llevar a cabo el proyecto se requieren los siguientes materiales
 ## Hardware
 - 1 x Arduino MEGA
 - 4 x Servomotores 9g
-- 4 x Potenciómetros 1K
+- 4 x Potenciómetros 10K
 - 1 x Protoboard
 - Jumpers
 
